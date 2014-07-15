@@ -120,7 +120,7 @@ nav.navbar .logo{
 	text-decoration: none;
 }
 nav.navbar .logo img{
-	border-radius: 4px;
+	border-radius: 6px;
 	vertical-align: middle;
 }
 nav.navbar .logo span{
@@ -133,6 +133,7 @@ nav.navbar .logo small{
 	vertical-align: middle;
 	color:#32e6e5;
 	margin-left: 5px;
+	font-size: 17px;
 }
 #top-nav{
 	margin-top: 15px;
@@ -143,9 +144,9 @@ nav.navbar .logo small{
 	height: 40px;
 	border-radius: 6px;
 	background-color: #000;
-	background-image: url("../img/topnav-icons.png");
+	background-image: url("../img/topnav-icons-sprite.png");
 	background-repeat: no-repeat;
-	margin-right: 20px;
+	margin-right: 15px;
 	-webkit-transition: all .5s;
 	-o-transition: all .5s;
 	transition: all .5s;
@@ -157,78 +158,117 @@ nav.navbar .logo small{
 }
 .top-navbar li.info:hover{
 	background-color: #ff003c;
+	-webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 1);
+	-moz-box-shadow:    0px 0px 20px 0px rgba(0, 0, 0, 1);
+	box-shadow:         0px 0px 20px 0px rgba(0, 0, 0, 1);
 }
 .top-navbar li.hz{
 	background-position: 0 -40px;
 }
 .top-navbar li.hz:hover{
 	background-color: #b35e09;
+	-webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 1);
+	-moz-box-shadow:    0px 0px 20px 0px rgba(0, 0, 0, 1);
+	box-shadow:         0px 0px 20px 0px rgba(0, 0, 0, 1);
 }
 .top-navbar li.tv{
 	background-position: 0 -80px;
 }
 .top-navbar li.tv:hover{
 	background-color: #0088dc;
+	-webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 1);
+	-moz-box-shadow:    0px 0px 20px 0px rgba(0, 0, 0, 1);
+	box-shadow:         0px 0px 20px 0px rgba(0, 0, 0, 1);
 }
 .top-navbar li.tuberculoza{
 	background-position: 0 -120px;
 }
 .top-navbar li.tuberculoza:hover{
 	background-color: #44c3ff;
+	-webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 1);
+	-moz-box-shadow:    0px 0px 20px 0px rgba(0, 0, 0, 1);
+	box-shadow:         0px 0px 20px 0px rgba(0, 0, 0, 1);
 }
 .top-navbar li.sanoclub{
 	background-position: 0 -160px;
 }
 .top-navbar li.sanoclub:hover{
 	background-color: #783cc8;
+	-webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 1);
+	-moz-box-shadow:    0px 0px 20px 0px rgba(0, 0, 0, 1);
+	box-shadow:         0px 0px 20px 0px rgba(0, 0, 0, 1);
 }
 .top-navbar li.isan{
 	background-position: 0 -200px;
 }
 .top-navbar li.isan:hover{
 	background-color: #ffaa00;
+	-webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 1);
+	-moz-box-shadow:    0px 0px 20px 0px rgba(0, 0, 0, 1);
+	box-shadow:         0px 0px 20px 0px rgba(0, 0, 0, 1);
 }
 .top-navbar li.sanoteca{
 	background-position: 0 -240px;
 }
 .top-navbar li.sanoteca:hover{
 	background-color: #898d90;
+	-webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 1);
+	-moz-box-shadow:    0px 0px 20px 0px rgba(0, 0, 0, 1);
+	box-shadow:         0px 0px 20px 0px rgba(0, 0, 0, 1);
 }
 .top-navbar li.imed{
 	background-position: 0 -280px;
 }
 .top-navbar li.imed:hover{
 	background-color: #28b4b4;
+	-webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 1);
+	-moz-box-shadow:    0px 0px 20px 0px rgba(0, 0, 0, 1);
+	box-shadow:         0px 0px 20px 0px rgba(0, 0, 0, 1);
 }
 .top-navbar li.spitale{
 	background-position: 0 -320px;
 }
 .top-navbar li.spitale:hover{
 	background-color: #00cc66;
+	-webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 1);
+	-moz-box-shadow:    0px 0px 20px 0px rgba(0, 0, 0, 1);
+	box-shadow:         0px 0px 20px 0px rgba(0, 0, 0, 1);
 }
 .top-navbar li.imec{
 	background-position: 0 -360px;
 }
 .top-navbar li.imec:hover{
 	background-color: #008787;
+	-webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 1);
+	-moz-box-shadow:    0px 0px 20px 0px rgba(0, 0, 0, 1);
+	box-shadow:         0px 0px 20px 0px rgba(0, 0, 0, 1);
 }
 .top-navbar li.donez{
 	background-position: 0 -520px;
 }
 .top-navbar li.donez:hover{
 	background-color: #f15a4d;
+	-webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 1);
+	-moz-box-shadow:    0px 0px 20px 0px rgba(0, 0, 0, 1);
+	box-shadow:         0px 0px 20px 0px rgba(0, 0, 0, 1);
 }
 .top-navbar li.pas{
 	background-position: 0 -440px;
 }
 .top-navbar li.pas:hover{
 	background-color: #009645;
+	-webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 1);
+	-moz-box-shadow:    0px 0px 20px 0px rgba(0, 0, 0, 1);
+	box-shadow:         0px 0px 20px 0px rgba(0, 0, 0, 1);
 }
 .top-navbar li.scoala{
 	background-position: 0 -480px;
 }
 .top-navbar li.scoala:hover{
 	background-color: #ed2225;
+	-webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 1);
+	-moz-box-shadow:    0px 0px 20px 0px rgba(0, 0, 0, 1);
+	box-shadow:         0px 0px 20px 0px rgba(0, 0, 0, 1);
 }
 #top-nav .navbar-right li a{
 	padding: 0 10px;
@@ -289,7 +329,7 @@ nav.navbar .logo small{
 	border-radius: 6px;
 	color: #32e6e6;
 	text-decoration: none;
-	padding: 12px 44px;
+	padding: 12px 30px;
 	font-size: 15px;
 }
 .left-sidebar .back:hover{
@@ -352,7 +392,7 @@ nav.navbar .logo small{
 	font-size: 13px;
 }
 .main-container form .container-fluid .row{
-	margin-bottom: 15px;
+	margin-bottom: 10px;
 }
 .main-container form .container-fluid .row:last-child{
 	margin-bottom: 0;
@@ -385,7 +425,7 @@ a.hide-form:hover{
 	padding-top: 15px;
 }
 .search-form .buttons-panel{
-	padding: 15px 30px;
+	padding: 10px 30px;
 	background-color: #ffff89;
 }
 
@@ -433,11 +473,10 @@ a.hide-form:hover{
 	background-color: #3a526c;
 }
 .search-result .control-panel button{
-	border-radius: 5px;
-	padding: 10px 25px;
+	border-radius: 4px;
+	padding: 8px 25px;
 	font-size: 13px;
 	color:#fff;
-	margin-right: 10px;
 }
 .search-result .control-panel button.blue{
 	background-color: #547599;
@@ -496,10 +535,10 @@ a.hide-form:hover{
 	text-decoration: none;
 	display: inline-block;
 	padding-bottom: 2px;
-	border-bottom: 1px dashed transparent;
+	border-bottom: 1px solid transparent;
 }
 .search-result table td a:hover{
-	border-bottom: 1px dashed #0080ff;
+	border-bottom: 1px solid #0080ff;
 }
 
 
