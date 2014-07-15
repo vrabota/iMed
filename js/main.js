@@ -8,3 +8,5 @@ $(".collapse-btn").click(function() {
 		par.slideToggle(200);
 		$(mybtn).toggleClass("close");
 });
+
+$(function () { $("[data-toggle='tooltip']").tooltip(); });

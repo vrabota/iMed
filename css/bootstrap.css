@@ -5692,12 +5692,13 @@ button.close {
 }
 .tooltip-inner {
   max-width: 200px;
-  padding: 3px 8px;
+  padding: 5px 10px;
   color: #ffffff;
   text-align: center;
   text-decoration: none;
-  background-color: #000000;
+  background-color: #000;
   border-radius: 4px;
+  font:400 13px "Open Sans";
 }
 .tooltip-arrow {
   position: absolute;
