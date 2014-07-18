@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Căutare pacient - Sistem Informaţional Medical / iMed</title>
+		<title>Căutare pacient - Sistem Informaţional Medical / iMeD</title>
 		<!-- Bootstrap -->
 		<link href="css/bootstrap.css" rel="stylesheet">
 		<link href="css/style.css" rel="stylesheet">
@@ -57,9 +57,9 @@
 													Victoria Rosca
 												</button>
 													<ul class="dropdown-menu" role="menu">
-														<li><a href="#"><span class="glyphicons-icon settings"></span>Preferinţele mele</a></li>
-														<li><a href="#">Setări profil</a></li>
-														<li><a href="#">Ieşire</a></li>
+														<li><a href="#"><i class="fa fa-user"></i>Preferinţele mele</a></li>
+														<li><a href="#"><i class="fa fa-cog"></i>Setări profil</a></li>
+														<li><a href="#"><i class="fa fa-sign-out"></i>Ieşire</a></li>
 													</ul>
 												</div>
 									</div>
@@ -75,19 +75,51 @@
 				<div class="col-lg-3 col-md-3 col-sm-3 left-sidebar">
 						<nav class="left-navigation accordion-navigation">
 								<ul>
-										<li class="active"><a href="javascript:void(0)" class="collapse-btn">PACIENŢI</a>
-											<ul class="collapse">
-                        <li class="active"><a href="#">Căutare pacient</a></li>
-                        <li><a href="#">Pacient nou</a></li>
-                        <li><a href="#">Comasare duplicate</a></li>
-                        <li><a href="#">Anularea comasării</a></li>
-                    </ul>
+										<li><a href="javascript:void(0)" class="collapse-btn"><span class="fa fa-bar-chart-o"></span>TABLOU DE BORD</a></li>
+										<li><a href="javascript:void(0)" class="collapse-btn"><span class="fa fa-users"></span>PACIENŢI <i class="fa fa-angle-down"></i></a>
+											<ul class="collapse in">
+                        <li class="active"><a href="#"><i class="fa fa-angle-right"></i>Căutare pacient</a></li>
+                        <li><a href="#"><i class="fa fa-angle-right"></i>Pacient nou</a></li>
+                        <li><a href="#"><i class="fa fa-angle-right"></i>Comasare duplicate</a></li>
+                        <li><a href="#"><i class="fa fa-angle-right"></i>Anularea comasării</a></li>
+                    	</ul>
 										</li>
-										<li><a href="javascript:void(0)" class="collapse-btn">PROGRAMARE</a></li>
-										<li><a href="javascript:void(0)" class="collapse-btn">RAPOARTE</a></li>
-										<li><a href="javascript:void(0)" class="collapse-btn">REGISTRE</a></li>
-										<li><a href="javascript:void(0)" class="collapse-btn">VACCINĂRI</a></li>
-										<li><a href="javascript:void(0)" class="collapse-btn">SETĂRI</a></li>
+										<li><a href="javascript:void(0)" class="collapse-btn"><span class="fa fa-calendar"></span>PROGRAMARE <i class="fa fa-angle-down"></i></a>
+											<ul class="collapse">
+												<li><a href="#"><i class="fa fa-angle-right"></i>Programarea mea</a></li>
+												<li><a href="#"><i class="fa fa-angle-right"></i>Caută programarea</a></li>
+											</ul>
+										</li>
+										<li><a href="javascript:void(0)" class="collapse-btn"><span class="fa fa-file-text-o"></span>RAPOARTE <i class="fa fa-angle-down"></i></a>
+											<ul class="collapse">
+												<li><a href="#"><i class="fa fa-angle-right"></i>Registrul vizitelor</a></li>
+												<li><a href="#"><i class="fa fa-angle-right"></i>Registru Tichete Stitistice</a></li>
+												<li><a href="#"><i class="fa fa-angle-right"></i>Sectorul meu</a></li>
+												<li><a href="#"><i class="fa fa-angle-right"></i>Registrul monitorizare</a></li>
+												<li><a href="#"><i class="fa fa-angle-right"></i>Modificare registre</a></li>
+												<li><a href="#"><i class="fa fa-angle-right"></i>Registrul trimiterilor</a></li>
+												<li><a href="#"><i class="fa fa-angle-right"></i>Registrul gravidelor</a></li>
+											</ul>
+										</li>
+										<li><a href="javascript:void(0)" class="collapse-btn"><span class="fa fa-book"></span>REGISTRE <i class="fa fa-angle-down"></i></a>
+											<ul class="collapse">
+												<li><a href="#"><i class="fa fa-angle-right"></i>Rapoarte zilnice</a></li>
+												<li><a href="#"><i class="fa fa-angle-right"></i>Rapoarte lunare ale medicului</a></li>
+											</ul>
+										</li>
+										<li><a href="javascript:void(0)" class="collapse-btn"><span class="fa fa-umbrella"></span>VACCINĂRI <i class="fa fa-angle-down"></i></a>
+											<ul class="collapse">
+												<li><a href="#"><i class="fa fa-angle-right"></i>Registrul vaccinărilor</a></li>
+												<li><a href="#"><i class="fa fa-angle-right"></i>Planuri</a></li>
+												<li><a href="#"><i class="fa fa-angle-right"></i>Registrul planuri vaccinări</a></li>
+												<li><a href="#"><i class="fa fa-angle-right"></i>Raport</a></li>
+											</ul>
+										</li>
+										<li><a href="javascript:void(0)" class="collapse-btn"><span class="fa fa-cogs"></span>SETĂRI <i class="fa fa-angle-down"></i></a>
+											<ul class="collapse">
+												<li><a href="#"><i class="fa fa-angle-right"></i>Lista scurtă a diagnozelor</a></li>
+											</ul>
+										</li>
 								</ul>
 								<a href="#" class="back">Ieşi din SIM</a>
 						</nav>
@@ -227,11 +259,11 @@
 									<div class="row">
 										<nav class="footer-nav">
 											<ul>
-												<li><a href="#">Confidențialitate</a></li>
-												<li><a href="#">Securitatea datelor</a></li>
-												<li><a href="#">Termeni şi Condiţii</a></li>
-												<li><a href="#">Asistență pentru clienți</a></li>
-												<li><a href="#">Servicii</a></li>
+												<li><a href="https://e-sanatate.md/iMeD/Home/Privacy">Confidențialitate</a></li>
+												<li><a href="https://e-sanatate.md/iMeD/Home/Security">Securitatea datelor</a></li>
+												<li><a href="https://e-sanatate.md/iMeD/Home/Terms">Termeni şi Condiţii</a></li>
+												<li><a href="https://e-sanatate.md/iMeD/Home/Assistance">Asistență pentru clienți</a></li>
+												<li><a href="https://e-sanatate.md/iMeD/Home/Services">Servicii</a></li>
 											</ul>
 										</nav>
 										<div class="clear"></div>
