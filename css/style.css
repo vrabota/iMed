@@ -335,7 +335,7 @@ nav.navbar .logo small{
 	-o-transition: all .3s;
 	transition: all .3s;
 }
-.left-sidebar .left-navigation li a span{
+.left-sidebar .left-navigation li a small{
 	margin-left: 10px;
 	font-size: 10px;
 	font-weight: 400;
