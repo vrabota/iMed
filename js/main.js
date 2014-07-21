@@ -10,3 +10,16 @@ $(".collapse-btn").click(function() {
 });
 
 $(function () { $("[data-toggle='tooltip']").tooltip(); });
+
+/*$(document).ready(function() {
+  $('[data-toggle=offcanvas]').click(function() {
+    $('.row-offcanvas').toggleClass('active');
+    $('#top-nav').collapse('hide');
+  });
+});*/
+
+$(document).ready(function() {
+  $('[data-toggle=offcanvas]').click(function() {
+    $('.row-offcanvas').toggleClass('active');
+  });
+});
