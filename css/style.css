@@ -844,3 +844,65 @@ a.hide-form:hover{
 	}
 }
 
+@media (max-width: 990px) {
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-collapse.collapse.in{
+    	display: block !important;
+    height: auto !important;
+    padding-bottom: 0;
+    overflow: visible !important;
+    }
+    .icons.navbar-toggle{
+		position: absolute;
+		top:-60px;
+		left:250px;
+	}
+	.profile-btn.btn-group{
+		position: absolute;
+		top:-70px;
+		right: 20px;
+	}
+
+.sidebar-btn{
+	top:-60px;
+	left: -20px;
+	position: absolute;
+}
+/*
+ * Off Canvas
+ * --------------------------------------------------
+ */
+.left-sidebar{
+	margin: 0;
+}
+  .row-offcanvas {
+    position: relative;
+    -webkit-transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out;
+  }
+
+  .row-offcanvas-left
+  .sidebar-offcanvas {
+    left: -40%;
+
+  }
+
+  .row-offcanvas-left.active {
+    left: 40%;
+  }
+
+  .sidebar-offcanvas {
+    position: absolute;
+    top: 0;
+    width: 40%;
+  }
+}
+
+
+
