@@ -844,7 +844,7 @@ a.hide-form:hover{
 	}
 }
 
-@media (max-width: 990px) {
+@media (min-width : 768px) and (max-width: 990px) {
     .navbar-toggle {
         display: block;
     }
