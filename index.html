@@ -5,7 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Căutare pacient - Sistem Informaţional Medical / iMeD</title>
-		<!-- Bootstrap -->
+		<link rel="shortcut icon" href="img/favicon.ico">
 		<link href="css/bootstrap.css" rel="stylesheet">
 		<link href="css/style.css" rel="stylesheet">
 
@@ -26,26 +26,20 @@
 						<div class="navbar-header">
 								
 								<a class="logo" href="index.html">
-									<img src="img/imed-logo.png" alt="iMeD Logo">
+									<span class="brand"></span>
 									<span>iMeD</span>
 									<small>SIM</small> 
 								</a>
-								
-
 						</div>
 						</div>
 						<div class="col-lg-13 col-md-12 col-sm-16 col-xs-16">
 								<button type="button" class="sidebar-btn navbar-toggle pull-left" data-toggle="offcanvas" data-target="#sidebar">
-									<span class="sr-only">Toggle navigation</span>
-									<span class="icon-bar"></span>
-									<span class="icon-bar"></span>
-									<span class="icon-bar"></span>
+									<span class="sr-only">Deschide bara laterală</span>
+									<span class="fa fa-bars"></span> 
 								</button>
 								<button type="button" class="icons navbar-toggle pull-left" data-toggle="collapse" data-target="#top-nav">
-									<span class="sr-only">Toggle navigation</span>
-									<span class="icon-bar"></span>
-									<span class="icon-bar"></span>
-									<span class="icon-bar"></span>
+									<span class="sr-only">Vezi toate modulele</span>
+									<span class="fa fa-ellipsis-v"></span>
 								</button>
 						
 								<div class="profile-btn btn-group pull-right">
@@ -87,7 +81,7 @@
 						<nav class="left-navigation accordion-navigation">
 								<ul>
 										<li><a href="javascript:void(0)" class="collapse-btn"><span class="fa fa-bar-chart-o"></span>TABLOU DE BORD</a></li>
-										<li><a href="javascript:void(0)" class="collapse-btn"><span class="fa fa-users"></span>PACIENŢI <i class="fa fa-angle-down"></i></a>
+										<li class="active-dropdown"><a href="javascript:void(0)" class="collapse-btn"><span class="fa fa-users"></span>PACIENŢI <i class="fa fa-angle-down"></i></a>
 											<ul class="collapse in">
                         <li class="active"><a href="#"><i class="fa fa-angle-right"></i>Căutare pacient</a></li>
                         <li><a href="#"><i class="fa fa-angle-right"></i>Pacient nou</a></li>
@@ -137,8 +131,8 @@
 				</div>
 				<div class="col-lg-13 col-md-12 col-sm-16 col-xs-16 wrapper-container">
 						<div class="main-container">
-							<h1>Căutare pacient <a href="#" class="hide-form">Ascunde formularul</a></h1>
-							<div class="search-form">
+							<h1>Căutare pacient <a href="javascript:void(0)" class="hide-form" data-toggle="collapse" data-target=".search-form">Ascunde formularul</a></h1>
+							<div class="search-form collapse in">
 								<form action="">
 									<div class="container-fluid">
 										<div class="row">
@@ -201,6 +195,7 @@
 										</div>
 									</div>
 								</div>
+								<div class="table-inner">
 								<table>
 									<tr>
 										<th><input type="checkbox"></th>
@@ -258,7 +253,158 @@
 										<td>15</td>
 										<td>Chișinău</td>
 									</tr>
+									<tr>
+										<td><input type="checkbox"></td>
+										<td>2004004042001</td>
+										<td><a href="#">Dromadera</a></td>
+										<td><a href="#">Anastasia</a></td>
+										<td>Cezar</td>
+										<td>01.01.1980</td>
+										<td>F</td>
+										<td>12</td>
+										<td>Matei Basarab</td>
+										<td>7</td>
+										<td>15</td>
+										<td>Chișinău</td>
+									</tr>
+									<tr>
+										<td><input type="checkbox"></td>
+										<td>2004004042001</td>
+										<td><a href="#">Dromadera</a></td>
+										<td><a href="#">Anastasia</a></td>
+										<td>Cezar</td>
+										<td>01.01.1980</td>
+										<td>F</td>
+										<td>12</td>
+										<td>Matei Basarab</td>
+										<td>7</td>
+										<td>15</td>
+										<td>Chișinău</td>
+									</tr>
+									<tr>
+										<td><input type="checkbox"></td>
+										<td>2004004042001</td>
+										<td><a href="#">Dromadera</a></td>
+										<td><a href="#">Anastasia</a></td>
+										<td>Cezar</td>
+										<td>01.01.1980</td>
+										<td>F</td>
+										<td>12</td>
+										<td>Matei Basarab</td>
+										<td>7</td>
+										<td>15</td>
+										<td>Chișinău</td>
+									</tr>
+									<tr>
+										<td><input type="checkbox"></td>
+										<td>2004004042001</td>
+										<td><a href="#">Dromadera</a></td>
+										<td><a href="#">Anastasia</a></td>
+										<td>Cezar</td>
+										<td>01.01.1980</td>
+										<td>F</td>
+										<td>12</td>
+										<td>Matei Basarab</td>
+										<td>7</td>
+										<td>15</td>
+										<td>Chișinău</td>
+									</tr>
+									<tr>
+										<td><input type="checkbox"></td>
+										<td>2004004042001</td>
+										<td><a href="#">Dromadera</a></td>
+										<td><a href="#">Anastasia</a></td>
+										<td>Cezar</td>
+										<td>01.01.1980</td>
+										<td>F</td>
+										<td>12</td>
+										<td>Matei Basarab</td>
+										<td>7</td>
+										<td>15</td>
+										<td>Chișinău</td>
+									</tr>
+									<tr>
+										<td><input type="checkbox"></td>
+										<td>2004004042001</td>
+										<td><a href="#">Dromadera</a></td>
+										<td><a href="#">Anastasia</a></td>
+										<td>Cezar</td>
+										<td>01.01.1980</td>
+										<td>F</td>
+										<td>12</td>
+										<td>Matei Basarab</td>
+										<td>7</td>
+										<td>15</td>
+										<td>Chișinău</td>
+									</tr>
+									<tr>
+										<td><input type="checkbox"></td>
+										<td>2004004042001</td>
+										<td><a href="#">Dromadera</a></td>
+										<td><a href="#">Anastasia</a></td>
+										<td>Cezar</td>
+										<td>01.01.1980</td>
+										<td>F</td>
+										<td>12</td>
+										<td>Matei Basarab</td>
+										<td>7</td>
+										<td>15</td>
+										<td>Chișinău</td>
+									</tr>
+									<tr>
+										<td><input type="checkbox"></td>
+										<td>2004004042001</td>
+										<td><a href="#">Dromadera</a></td>
+										<td><a href="#">Anastasia</a></td>
+										<td>Cezar</td>
+										<td>01.01.1980</td>
+										<td>F</td>
+										<td>12</td>
+										<td>Matei Basarab</td>
+										<td>7</td>
+										<td>15</td>
+										<td>Chișinău</td>
+									</tr>
+									<tr>
+										<td><input type="checkbox"></td>
+										<td>2004004042001</td>
+										<td><a href="#">Dromadera</a></td>
+										<td><a href="#">Anastasia</a></td>
+										<td>Cezar</td>
+										<td>01.01.1980</td>
+										<td>F</td>
+										<td>12</td>
+										<td>Matei Basarab</td>
+										<td>7</td>
+										<td>15</td>
+										<td>Chișinău</td>
+									</tr>
+									<tr>
+										<td><input type="checkbox"></td>
+										<td>2004004042001</td>
+										<td><a href="#">Dromadera</a></td>
+										<td><a href="#">Anastasia</a></td>
+										<td>Cezar</td>
+										<td>01.01.1980</td>
+										<td>F</td>
+										<td>12</td>
+										<td>Matei Basarab</td>
+										<td>7</td>
+										<td>15</td>
+										<td>Chișinău</td>
+									</tr>
 								</table>
+								</div>
+								<div class="pagination-box">
+									<ul class="pagination">
+										<li class="disabled"><a href="#">&laquo;</a></li>
+										<li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>
+										<li><a href="#">2 <span class="sr-only">(page 2)</span></a></li>
+										<li><a href="#">3 <span class="sr-only">(page 3)</span></a></li>
+										<li><a href="#">4 <span class="sr-only">(page 4)</span></a></li>
+										<li><a href="#">&raquo;</a></li>
+									</ul>
+								</div>
 							</div>
 								
 						</div>
@@ -309,5 +455,6 @@
 <script src="js/bootstrap.js"></script>
 <script src="js/bootstrap-tooltip.js"></script>
 <script src="js/main.js"></script>
+<script src="js/modernizr.js"></script>
 </body>
 </html>

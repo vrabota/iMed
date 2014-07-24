@@ -23,3 +23,9 @@ $(document).ready(function() {
     $('.row-offcanvas').toggleClass('active');
   });
 });
+$(document).ready(function() {
+  $('.sidebar-btn').click(function() {
+  	$(this).toggleClass("left-20");
+ });
+});
+
