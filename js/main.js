@@ -19,13 +19,21 @@ $(function () { $("[data-toggle='tooltip']").tooltip(); });
 });*/
 
 $(document).ready(function() {
-  $('[data-toggle=offcanvas]').click(function() {
-    $('.row-offcanvas').toggleClass('active');
-  });
+	$('[data-toggle=offcanvas]').click(function() {
+		$('.row-offcanvas').toggleClass('active');
+	});
 });
 $(document).ready(function() {
-  $('.sidebar-btn').click(function() {
-  	$(this).toggleClass("left-20");
- });
+	$('.sidebar-btn').click(function() {
+			$(this).toggleClass("left-20");
+	});
+	$(".hide-form").click(function() {
+		if ($(this).text() == 'Ascunde formularul') {
+			$(this).text('Arată formularul');
+		} else {
+			$(this).text('Ascunde formularul');
+		}
+		});
 });
+
 
