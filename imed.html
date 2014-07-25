@@ -17,27 +17,33 @@
 		<![endif]-->
 </head>
 <body>
+<div class="wrapper">
 <!-- Header -->
 <nav class="navbar navbar-default top" role="navigation">
 		<div class="container-fluid">
 				<div class="row-fluid">
-						<div class="col-lg-3 col-md-3 col-sm-3">
+						<div class="col-lg-3 col-md-4 col-sm-16 col-xs-16">
 						<div class="navbar-header">
-								<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#top-nav">
-										<span class="sr-only">Toggle navigation</span>
-										<span class="icon-bar"></span>
-										<span class="icon-bar"></span>
-										<span class="icon-bar"></span>
-								</button>
+								
 								<a class="logo" href="index.html">
-									<img src="img/imed-logo.png" alt="iMeD Logo">
+									<span class="brand"></span>
 									<span>iMeD</span>
-									<!-- <small>SIM</small> -->
 								</a>
 						</div>
 						</div>
-						<div class="col-lg-13 col-md-13 col-sm-13">
-							<div class="collapse navbar-collapse" id="top-nav">
+						<div class="col-lg-13 col-md-12 col-sm-16 col-xs-16">
+								<button type="button" class="sidebar-btn navbar-toggle pull-left" data-toggle="offcanvas" data-target="#sidebar">
+									<span class="sr-only">Deschide bara laterală</span>
+									<span class="fa fa-bars"></span> 
+								</button>
+								<button type="button" class="icons navbar-toggle pull-left" data-toggle="collapse" data-target="#top-nav">
+									<span class="sr-only">Vezi toate modulele</span>
+									<span class="fa fa-ellipsis-v"></span>
+								</button>
+								<div class="login pull-right">
+									<a href="#">Logare</a> <span>|</span> <a href="#">Înregistrare</a>
+								</div>
+								<div class="collapse navbar-collapse" id="top-nav">
 									<ul class="nav navbar-nav top-navbar">
 											<li class="info" data-toggle="tooltip" data-placement="bottom" title="Sănătate Info"><a href="http://e-sanatate.md/News/Home">Sănătate Info</a></li>
 											<li class="tv" data-toggle="tooltip" data-placement="bottom" title="Sănătate TV"><a href="http://e-sanatate.md/TV/Home">Sănătate TV</a></li>
@@ -51,19 +57,18 @@
 											<li class="scoala" data-toggle="tooltip" data-placement="bottom" title="Școala E-Sănătate"><a href="#">Școala E-Sănătate</a></li>
 											<li class="donez" data-toggle="tooltip" data-placement="bottom" title="Donez Sânge"><a href="#">Donez Sânge</a></li>
 									</ul>
-									<div class="nav navbar-nav navbar-right">
-											<a href="#">Logare</a> <span>|</span> <a href="#">Înregistrare</a>
-									</div>
+									
 							</div>
+							
 						</div>
 				</div>
 		</div>
 </nav>
 
 <!-- Main Container -->    
-<div class="container-fluid">
-		<div class="row">
-				<div class="col-lg-3 col-md-3 col-sm-3 left-sidebar">
+<div class="container-fluid wrapper-main-container">
+		<div class="row-offcanvas row-offcanvas-left">
+				<div class="col-lg-3 col-md-4 col-sm-4 col-xs-10 left-sidebar sidebar-offcanvas" id="sidebar" role="navigation">
 						<nav class="left-navigation">
 								<ul>
 										<li class="active"><a href="#" class="collapse-btn">Profil personal</a></li>
@@ -76,30 +81,30 @@
 								<a href="#" class="back">Intră în SIM</a>
 						</nav>
 				</div>
-				<div class="col-lg-13 col-md-13 col-sm-13 wrapper-container">
+				<div class="col-lg-13 col-md-12 col-sm-16 col-xs-16 wrapper-container">
 						<div class="main-container">
 								<h1 class="title">Profil personal</h1>
 								<h2>Informaţie de bază</h2>
 								<form>
 										<div class="container-fluid">
 												<div class="row">
-														<div class="col-lg-4 col-md-5"><label for="name">Prenume</label></div>
-														<div class="col-lg-5 col-md-5"><input id="name" type="text" name="" value=""></div>
+														<div class="col-lg-4"><label for="name">Prenume</label></div>
+														<div class="col-lg-5"><input id="name" type="text" name="" value=""></div>
 												</div>
 
 												<div class="row">
-														<div class="col-lg-4 col-md-5"><label for="lastname">Nume de familie</label></div>
-														<div class="col-lg-5 col-md-5"><input id="lastname" type="text" name="" value=""></div>
+														<div class="col-lg-4"><label for="lastname">Nume de familie</label></div>
+														<div class="col-lg-5"><input id="lastname" type="text" name="" value=""></div>
 												</div>
 
 												<div class="row">
-														<div class="col-lg-4 col-md-5"><label for="function">Funcţia</label></div>
-														<div class="col-lg-5 col-md-5"><input id="function" type="text" name="" value=""></div>
+														<div class="col-lg-4"><label for="function">Funcţia</label></div>
+														<div class="col-lg-5"><input id="function" type="text" name="" value=""></div>
 												</div>
 
 												<div class="row">
-														<div class="col-lg-4 col-md-5"><label for="inst-medicala">Instituţia medicală</label></div>
-														<div class="col-lg-5 col-md-5"><input id="inst-medicala" type="text" name="" value=""></div>
+														<div class="col-lg-4"><label for="inst-medicala">Instituţia medicală</label></di
+														<div class="col-lg-5"><input id="inst-medicala" type="text" name="" value=""></div>
 												</div>
 										</div>
 										<h2>Despre studii</h2>
@@ -127,18 +132,18 @@
 												</div>
 
 												<div class="row">
-														<div class="col-lg-4 col-md-5"><label for="nr-diplomei-studii">Nr. diplomei de studii</label></div>
-														<div class="col-lg-5 col-md-5"><input id="nr-diplomei-studii" type="text" name="" value=""></div>
+														<div class="col-lg-4"><label for="nr-diplomei-studii">Nr. diplomei de studii</label></div>
+														<div class="col-lg-5"><input id="nr-diplomei-studii" type="text" name="" value=""></div>
 												</div>
 
 												<div class="row">
-														<div class="col-lg-4 col-md-5"><label for="nr-diplomei-licenta">Nr. diplomei de licenţă</label></div>
-														<div class="col-lg-5 col-md-5"><input id="nr-diplomei-licenta" type="text" name="" value=""></div>
+														<div class="col-lg-4"><label for="nr-diplomei-licenta">Nr. diplomei de licenţă</label></div>
+														<div class="col-lg-5"><input id="nr-diplomei-licenta" type="text" name="" value=""></div>
 												</div>
 
 												<div class="row">
-														<div class="col-lg-4 col-md-5"><label for="eliberata-inst">Eliberată de instituţia</label></div>
-														<div class="col-lg-5 col-md-5"><input id="eliberata-inst" type="text" name="" value=""></div>
+														<div class="col-lg-4"><label for="eliberata-inst">Eliberată de instituţia</label></div>
+														<div class="col-lg-5"><input id="eliberata-inst" type="text" name="" value=""></div>
 												</div>
 
 												<div class="row">
@@ -155,28 +160,28 @@
 										<h2>Informaţie auxiliară</h2>
 										<div class="container-fluid">
 												<div class="row">
-														<div class="col-lg-4 col-md-5"><label for="phone">Telefon</label></div>
-														<div class="col-lg-5 col-md-5"><input id="phone" type="text" name="" value=""></div>
+														<div class="col-lg-4"><label for="phone">Telefon</label></div>
+														<div class="col-lg-5"><input id="phone" type="text" name="" value=""></div>
 												</div>
 
 												<div class="row">
-														<div class="col-lg-4 col-md-5"><label for="email">E-mail</label></div>
-														<div class="col-lg-5 col-md-5"><input id="email" type="text" name="" value=""></div>
+														<div class="col-lg-4"><label for="email">E-mail</label></div>
+														<div class="col-lg-5"><input id="email" type="text" name="" value=""></div>
 												</div>
 
 												<div class="row">
-														<div class="col-lg-4 col-md-5"><label for="address">Adresa</label></div>
-														<div class="col-lg-5 col-md-5"><input id="address" type="text" name="" value=""></div>
+														<div class="col-lg-4"><label for="address">Adresa</label></div>
+														<div class="col-lg-5"><input id="address" type="text" name="" value=""></div>
 												</div>
 
 												<div class="row">
-														<div class="col-lg-4 col-md-5"><label for="afiliere" class="lh">Afilierea la societăţi<br>şi asociaţii profesionale</label></div>
-														<div class="col-lg-5 col-md-5"><input id="afiliere" type="text" name="" value=""></div>
+														<div class="col-lg-4"><label for="afiliere" class="lh">Afilierea la societăţi<br>şi asociaţii profesionale</label></div>
+														<div class="col-lg-5"><input id="afiliere" type="text" name="" value=""></div>
 												</div>
 
 												<div class="row">
-														<div class="col-lg-4 col-md-5"><label for="activitatea" class="lh">Activitatea curentă<br>în instituţii medicale</label></div>
-														<div class="col-lg-5 col-md-5"><input id="activitatea" type="text" name="" value=""></div>
+														<div class="col-lg-4"><label for="activitatea" class="lh">Activitatea curentă<br>în instituţii medicale</label></div>
+														<div class="col-lg-5"><input id="activitatea" type="text" name="" value=""></div>
 												</div>
 
 												<div class="row">
@@ -241,10 +246,11 @@
 				</div>
 		</div>
 </div>
-
+</div>
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.js"></script>
 <script src="js/bootstrap-tooltip.js"></script>
 <script src="js/main.js"></script>
+<script src="js/modernizr.js"></script>
 </body>
 </html>

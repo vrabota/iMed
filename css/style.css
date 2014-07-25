@@ -381,6 +381,19 @@ html.svg .top-navbar li.donez{
 	margin-right: 10px;
 	color: #000;
 }
+.login a{
+	line-height: 70px;
+	color: #fff;
+	margin: 0 5px;
+	text-decoration: none;
+	padding-bottom: 2px;
+}
+.login a:hover{
+	border-bottom: 1px solid #fff;
+}
+.login span{
+	color: rgba(255,255,255,.3);
+}
 
 /**
  * Left Sidebar
@@ -781,7 +794,21 @@ a.hide-form:hover{
  */
 
 @media (max-width:767px){
-		nav.top .col-lg-13{
+	.login{
+		width: 100%;
+		display: block;
+		text-align: center;
+	}
+	label{
+		float: none;
+	}
+	label.lh{
+		line-height: 30px;
+	}
+	label.lh br{
+		display: none;
+	}
+	nav.top .col-lg-13{
 		padding-left: 30px;
 	}
 	.top-navbar .tooltip{
@@ -845,7 +872,6 @@ a.hide-form:hover{
 		border-bottom-color: rgba(0, 0, 0, 0.2);
 		content: '';
 	}
-
 	.profile-btn .dropdown-menu:after {
 		position: absolute;
 		top: -6px;
@@ -973,6 +999,15 @@ a.hide-form:hover{
  */
 
 @media only screen and (min-width : 768px) and (max-width : 980px) and (orientation : portrait) {
+	label{
+		float: none;
+	}
+	label.lh{
+		line-height: 30px;
+	}
+	label.lh br{
+		display: none;
+	}
 	.wrapper-container{
 		padding: 0;
 	}
@@ -1048,7 +1083,24 @@ a.hide-form:hover{
 	-webkit-transition: all 0s;
 	-o-transition: all 0s;
 	transition: all 0s;
+	}
 }
+
+
+/**
+ * Tablets optimization, orientation landscape
+ */
+
+@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : landscape) {
+	.footer .footer-nav ul li{
+		margin-right: 30px;
+	}
+	.main-container .search-form label[for="birthdayyear"]{
+		line-height: normal;
+	}
+}
+
+@media only screen and (min-width : 768px) and (max-width : 980px){
 	.navbar-toggle {
 		display: block;
 	}
@@ -1060,6 +1112,47 @@ a.hide-form:hover{
 		height: auto !important;
 		padding-bottom: 0;
 		overflow: visible !important;
+	}
+	.sidebar-btn{
+		top:-60px;
+		left: -10px;
+		position: absolute;
+		margin-right: 0;
+	}
+	.sidebar-btn{
+		border:none;
+		color:#fff;
+	}
+	.sidebar-btn .fa-bars{
+		font-size: 1.5em;
+	}
+	.sidebar-btn:focus, .sidebar-btn:hover{
+		background: none !important;
+	}
+	.sidebar-btn.left-20 span.fa-bars{
+		margin-left: -10px;
+		padding-right: 10px;
+	}
+	.icons.navbar-toggle{
+		position: absolute;
+		top:-58px;
+		left:230px;
+		width:30px;
+		height:30px;
+		border:none;
+		background: #33485e;
+		display: inline-block;
+	}
+	.icons.navbar-toggle span{
+		color:#fff;
+	}
+	.icons.navbar-toggle:hover, .icons.navbar-toggle:focus{
+		background: #33485e !important;
+	}
+	.login{
+		position: absolute;
+		top:-70px;
+		right:20px;
 	}
 
 	/**
@@ -1090,18 +1183,6 @@ a.hide-form:hover{
 	}
 }
 
-/**
- * Tablets optimization, orientation landscape
- */
-
-@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : landscape) {
-	.footer .footer-nav ul li{
-		margin-right: 30px;
-	}
-	.main-container .search-form label[for="birthdayyear"]{
-		line-height: normal;
-	}
-}
 
 
 
