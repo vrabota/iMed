@@ -788,6 +788,43 @@ a.hide-form:hover{
 .pagination-box{
 	text-align: center;
 }
+.nav-tabs{
+	border:1px solid #e6e6e6;
+	display: inline-block;
+	border-radius: 4px;
+}
+.nav-tabs li{
+	margin-bottom: 0;
+	border-right:1px solid #e6e6e6;
+	
+}
+.nav-tabs li:last-child{
+	border-right: none;
+}
+.nav-tabs li a{
+	padding: 15px 20px;
+	font-size: 13px;
+	color:#666666;
+	margin: 0;
+	border: none;
+	border-radius: 0;
+	background-color: #fafafa;
+}
+.nav-tabs li.active{
+
+}
+.nav-tabs li.active a{
+	border: none;
+	background-color: #e6e6e6;
+	font-weight: 700;
+}
+.nav-tabs li.active a:focus, .nav-tabs li.active a:hover{
+	border: none;
+	background-color: #e6e6e6;
+}
+.tab-content{
+	margin: 30px 0 20px 0;
+}
 
 /**
  * Mobile optimization
