@@ -94,21 +94,21 @@ select{
 	font-size: 13px
 }
 input[type="submit"]{
-	font-size: 14px;
+	font-size: 13px;
 	font-weight: 700;
 	color:#fff;
 	background-color: #4ec422;
 	padding: 13px 24px;
 	border: 1px solid #43aa1d;
 	border-radius: 4px;
-	margin-right: 15px;
+	margin-right: 11px;
 }
 input[type="submit"]:hover{
 	background-color: #57de26;
 	border:1px solid #43ab1d;
 }
 input[type="reset"]{
-	font-size: 14px;
+	font-size: 13px;
 	font-weight: 700;
 	color:#646464;
 	background-color: #f0f0f0;
@@ -460,7 +460,7 @@ html.svg .top-navbar li.donez{
 	margin: 0 10px 0 0;
 	background: none;
 	color:#fff;
-	font-size: 14px;
+	font-size: 13px;
 }
 .left-sidebar .left-navigation li a:hover span{
 	color: #32e6e6;
@@ -566,7 +566,7 @@ html.svg .top-navbar li.donez{
 }
 .footer .footer-nav ul li a:hover{
 	color: #0059b2;
-	border-bottom: 1px solid #0059b2;
+	border-bottom: 1px solid #b2cde8;
 	padding-bottom: 1px;
 }
 .footer .copyright{
@@ -603,7 +603,7 @@ html.svg .top-navbar li.donez{
 	font-size: 13px;
 	color: #0080ff;
 	padding-bottom: 2px;
-	border-bottom: 1px dashed #0080ff;
+	border-bottom: 1px dashed #b2d9ff;
 	text-decoration: none;
 	background: none;
 	border-radius: 0;
@@ -664,7 +664,7 @@ a.hide-form{
 	color:#0080ff;
 	font-size: 13px;
 	font-weight: 400;
-	border-bottom: 1px dashed #0080ff;
+	border-bottom: 1px dashed #b2d9ff;
 	padding-bottom: 2px;
 	margin-left: 20px;
 	vertical-align: middle;
@@ -672,15 +672,16 @@ a.hide-form{
 }
 a.hide-form:hover{
 	color:#0059b2;
+	border-bottom: 1px dashed #b2cde8;
 	text-decoration: none;
 }
 .search-form{
-	background-color: #ffffbb;
+	background-color: #fff5c4;
 	padding-top: 15px;
 }
 .search-form .buttons-panel{
 	padding: 10px 30px;
-	background-color: #ffff89;
+	background-color: #ffef9e;
 }
 .search-form .buttons-panel input[type="submit"], .search-form .buttons-panel input[type="reset"]{
 	padding: 7px 24px;
@@ -727,7 +728,7 @@ a.hide-form:hover{
 	padding: 8px 25px;
 	font-size: 13px;
 	color:#fff;
-	margin-right: 10px;
+	margin-right: 6px;
 }
 .search-result .control-panel button.blue{
 	background-color: #547599;
@@ -756,11 +757,11 @@ a.hide-form:hover{
 	overflow: hidden;
 }
 .search-result table th{
-	padding: 10px 10px;
+	padding: 8px 10px;
 	background-color: #e6e6e6;
 	color:#666666;
-	font-size: 13px;
-		-webkit-transition: all .2s;
+	font-size: 11px;
+	-webkit-transition: all .2s;
 	-o-transition: all .2s;
 	transition: all .2s;
 }
@@ -772,8 +773,9 @@ a.hide-form:hover{
 }
 .search-result table td{
 	border:1px solid #f0f0f0;
-	padding: 10px 10px;
+	padding: 6px 10px;
 	color:#1c2733;
+	font-size: 13px;
 	-webkit-transition: all .2s;
 	-o-transition: all .2s;
 	transition: all .2s;
@@ -782,16 +784,17 @@ a.hide-form:hover{
 	background-color: #fafafa;
 }
 .search-result table tr:hover > td{
-	background-color: #f5f5f5;
+	background-color: #ffef9e;
 }
 .search-result table td a{
+	color: ##0080ff;
 	text-decoration: none;
 	display: inline-block;
 	padding-bottom: 2px;
 	border-bottom: 1px solid transparent;
 }
 .search-result table td a:hover{
-	border-bottom: 1px solid #0080ff;
+	border-bottom: 1px solid #b2cde8;
 }
 .pagination-box{
 	text-align: center;
@@ -838,6 +841,9 @@ form.new-pacient label{
 	font-weight: 400;
 	float: none;
 }
+form.new-pacient input[type="checkbox"]{
+	margin: 10px 0 0;
+}
 form.new-pacient .row{
 	margin: 10px -30px;
 }
@@ -849,6 +855,10 @@ form.new-pacient .row{
 #general-information form.new-pacient .adress h2{
 	background-color: #e6e6e6;
 	margin: 0;
+}
+#residence h2{
+	background: none;
+	padding: 0;
 }
 
 
