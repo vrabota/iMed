@@ -22,6 +22,7 @@ $(document).ready(function() {
 	$('[data-toggle=offcanvas]').click(function() {
 		$('.row-offcanvas').toggleClass('active');
 	});
+	$('.datepicker').datepicker();
 });
 $(document).ready(function() {
 	$('.sidebar-btn').click(function() {
@@ -34,6 +35,8 @@ $(document).ready(function() {
 			$(this).text('Ascunde formularul');
 		}
 		});
+
 });
+
 
 

@@ -1,6 +1,7 @@
 @import "reset.css";
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=cyrillic-ext,latin-ext);
 @import "font-awesome.css";
+@import "datepicker.css";
 
 /**
  * Default styles
@@ -122,6 +123,12 @@ input[type="reset"]:hover{
 .lh{
 	line-height: normal;
 }
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
 a, input[type="submit"], input[type="reset"],button{
 	-webkit-transition: all .2s;
 	-o-transition: all .2s;
@@ -194,9 +201,9 @@ nav.navbar .logo small{
 	background-image: url("../img/icons-section-sprite.png");
 	background-repeat: no-repeat;
 	margin-right: 15px;
-	-webkit-transition: all .5s;
-	-o-transition: all .5s;
-	transition: all .5s;
+	-webkit-transition: background-color .5s;
+	-o-transition: background-color .5s;
+	transition: background-color .5s;
 }
 .top-navbar li:hover{
 	-webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 1);
@@ -207,6 +214,7 @@ nav.navbar .logo small{
 	display: block;
 	width: 40px;
 	height: 40px;
+	trans
 }
 html.svg .top-navbar li.info{
 	background-image: url("../img/icon-sanostiri.svg");
@@ -859,6 +867,142 @@ form.new-pacient .row{
 #residence h2{
 	background: none;
 	padding: 0;
+}
+
+/**
+ * Tablou de bord page
+ */
+.board .main-container{
+	background: none;
+	box-shadow: none;
+	border-radius: 0;
+}
+.board h1{
+	padding-left: 0;
+}
+.board .offset{
+	margin-left: -30px;
+}
+.board .wrapper-box{
+	margin-bottom: 15px;
+}
+.board .box{
+	border-radius: 4px;
+	background-color: #fff;
+	-webkit-box-shadow: 0px 4px 0px 0px rgba(28, 39, 51, 0.1);
+	-moz-box-shadow:    0px 4px 0px 0px rgba(28, 39, 51, 0.1);
+	box-shadow:         0px 4px 0px 0px rgba(28, 39, 51, 0.1);
+}
+.board .box .header{
+	padding: 15px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+}
+.board .box .header h4{
+	font-size: 14px;
+	font-weight: 700;
+	color:#fff;
+	text-align: center;
+}
+.board .box.red .header{
+	background-color: #f53c28;
+}
+.board .box.purple .header{
+	background-color: #b45a96;
+}
+.board .box.yellow .header{
+	background-color: #f5b400;
+}
+
+.board .box.big .content > div{
+	padding: 25px 10px;
+	border-right:1px solid #e6e6e6;
+}
+.board .box.big .content > div:last-child{
+	border: none;
+}
+.board .box.big .content p.text{
+	font-size: 11px;
+	color: #999999;
+	text-align: center;
+}
+.board .box.big .content h5.number{
+	font-size: 22px;
+	font-weight: 700;
+	color: #1c2733;
+	text-align: center;
+	margin-top: 15px;
+}
+.board .box.small{
+	min-height: 120px;
+}
+.board .box.small .content > div{
+	padding: 17px 10px;
+}
+.board .box.small{
+	border-left: 10px solid;
+}
+.board .box.red.small{
+	border-color: #f53c28;
+}
+.board .box.yellow.small{
+	border-color: #f5b400;
+}
+.board .box.small .content p.text{
+	font-size: 11px;
+	color: #999999;
+	line-height: 14px;
+}
+.board .box.small .content h5.number{
+	font-size: 26px;
+	font-weight: 700;
+	color: #1c2733;
+	margin-top: 15px;
+}
+.board .box.small.red .content h5.number{
+	color: #f53c28;
+}
+.board .box.small.yellow .content h5.number{
+	color: #f5b400;
+}
+.board .box.small .left{
+	padding: 0 10px;
+	margin-top: 13px;
+}
+.board .box.small .left h5.number{
+	margin-top: 0;
+}
+.board .box.small .border{
+	border-right:1px solid #e6e6e6;
+	padding-left: 0;
+}
+.board table.free-beds{
+	width:100%;
+	margin: 5px 0;
+}
+.board table.free-beds tr:nth-child(even){
+	background: #f5f5f5;
+}
+.board table.free-beds tr th{
+	font-size: 11px;
+	color: #999999;
+	padding: 10px 0;
+}
+.board table.free-beds tr td{
+	padding: 7px 0;
+	font-size: 14px;
+	color:#1c2733;
+}
+.board table.free-beds tr td:first-child, .board table.free-beds tr th:first-child{
+	padding-left: 20px;
+}
+.board table.free-beds tr td:first-child + td, .board table.free-beds tr th:first-child + th{
+	text-align: right;
+	padding-right: 20px;
+}
+.board table.free-beds tr td:last-child{
+	text-align: right;
+	padding-right: 20px;
 }
 
 
