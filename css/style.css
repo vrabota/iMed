@@ -913,6 +913,12 @@ form.new-pacient .row{
 .board .box.yellow .header{
 	background-color: #f5b400;
 }
+.board .box.green-light .header{
+	background-color: #78c828;
+}
+.board .box.blue-light .header{
+	background-color: #28a0dc;
+}
 
 .board .box.big .content > div{
 	padding: 25px 10px;
@@ -948,6 +954,16 @@ form.new-pacient .row{
 .board .box.yellow.small{
 	border-color: #f5b400;
 }
+.board .box.blue.small{
+	border-color: #0080ff;
+}
+.board .box.green-dark.small{
+	border-color: #008787;
+}
+.board .box.green.small{
+	border-color: #4dc421;
+}
+
 .board .box.small .content p.text{
 	font-size: 11px;
 	color: #999999;
@@ -965,9 +981,18 @@ form.new-pacient .row{
 .board .box.small.yellow .content h5.number{
 	color: #f5b400;
 }
+.board .box.small.blue .content h5.number{
+	color: #0080ff;
+}
+.board .box.small.green-dark .content h5.number{
+	color: #008787;
+}
+.board .box.small.green .content h5.number{
+	color: #4dc421;
+}
 .board .box.small .left{
 	padding: 0 10px;
-	margin-top: 13px;
+	margin-top: 28px;
 }
 .board .box.small .left h5.number{
 	margin-top: 0;
@@ -1003,6 +1028,58 @@ form.new-pacient .row{
 .board table.free-beds tr td:last-child{
 	text-align: right;
 	padding-right: 20px;
+}
+.board .box.htmlbox .content{
+	font-size: 13px;
+	color: #666;
+	line-height: 18px;
+}
+.board .box.htmlbox.darkblue .header{
+	background-color: #547599;
+}
+.board .box.info{
+	font-size: 11px;
+	line-height: 15px;
+	color:#666;
+	padding: 20px;
+}
+.board .box.info .content > div{
+	padding: 0;
+}
+.board .box.info h3{
+	font-size: 16px;
+	line-height: 20px;
+	color:#008787;
+	padding: 0;
+	margin-bottom: 25px;
+}
+.board .box.info h5.score{
+	color: #008787;
+	font-size: 26px;
+	float: left;
+	margin-right: 10px;
+	margin-top: 5px;
+}
+.board .box.info span.score-text{
+	color:#999;
+	font-size: 11px;
+	line-height: 13px;
+	float: left;
+}
+.board .box.info h4{
+	color: #008787;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	font-size: 13px;
+	font-weight: 700;
+}
+.board .box.info{
+	color:#999;
+	font-size: 11px;
+	line-height: 15px;
+}
+.board .box.info table{
+	width: 100%;
 }
 
 
@@ -1209,6 +1286,18 @@ form.new-pacient .row{
 		text-align: center;
 		float: none;
 	}
+	.board .two-columns .col-lg-8 div.row{
+		margin-left: -30px !important;
+		margin-right: -30px !important;
+		margin-bottom: 15px !important;
+	}
+	.board .wrapper-box{
+		margin:0 !important;
+		margin-bottom: 15px !important;
+	}
+	.board h1{
+		padding-left: 30px;
+	}
 }
 
 /**
@@ -1301,6 +1390,18 @@ form.new-pacient .row{
 	-o-transition: all 0s;
 	transition: all 0s;
 	}
+	.board .two-columns .col-lg-8 div.row{
+		
+		margin-bottom: 15px !important;
+	}
+	.board .wrapper-box{
+		margin-left:-15px !important;
+		margin-right:-15px !important;
+		margin-bottom: 15px !important;
+	}
+	.board h1{
+		padding-left: 15px;
+	}
 }
 
 
@@ -1314,6 +1415,19 @@ form.new-pacient .row{
 	}
 	.main-container .search-form label[for="birthdayyear"]{
 		line-height: normal;
+	}
+	.board .two-columns .col-lg-8 div.row{
+		margin-left: -30px !important;
+		margin-right: -30px !important;
+		margin-bottom: 15px !important;
+	}
+	.board .wrapper-box{
+		margin-left:-15px !important;
+		margin-right:-15px !important;
+		margin-bottom: 15px !important;
+	}
+	.board h1{
+		padding-left: 15px;
 	}
 }
 
