@@ -470,6 +470,9 @@ html.svg .top-navbar li.donez{
 	color:#fff;
 	font-size: 13px;
 }
+.left-sidebar .left-navigation li.active a:hover span{
+	color:#fff;
+}
 .left-sidebar .left-navigation li a:hover span{
 	color: #32e6e6;
 }
@@ -876,6 +879,7 @@ form.new-pacient .row{
 	background: none;
 	box-shadow: none;
 	border-radius: 0;
+	margin-top: 0;
 }
 .board h1{
 	padding-left: 0;
@@ -940,10 +944,10 @@ form.new-pacient .row{
 	margin-top: 15px;
 }
 .board .box.small{
-	min-height: 120px;
+	min-height: 90px;
 }
 .board .box.small .content > div{
-	padding: 17px 10px;
+	padding: 10px 10px;
 }
 .board .box.small{
 	border-left: 10px solid;
@@ -991,8 +995,8 @@ form.new-pacient .row{
 	color: #4dc421;
 }
 .board .box.small .left{
-	padding: 0 10px;
-	margin-top: 28px;
+	padding: 0 7px;
+	margin-top: 15px;
 }
 .board .box.small .left h5.number{
 	margin-top: 0;
@@ -1061,10 +1065,12 @@ form.new-pacient .row{
 	margin-top: 5px;
 }
 .board .box.info span.score-text{
-	color:#999;
 	font-size: 11px;
 	line-height: 13px;
 	float: left;
+}
+.board .box.info a:hover span.score-text{
+	text-decoration: underline;
 }
 .board .box.info h4{
 	color: #008787;
